@@ -7,22 +7,52 @@ The purpose of this project was to help Steve with suggesting green stocks to in
 ## Results
 ### Stock Performance
 * Green Stock tickers, "AY","CSIQ","DQ","ENPH","FSLR","HASI","JKS","RUN","SEDG","SPWR","TERP","VSLR" in the year 2017 all returned positive returns except "TERP" as can be seen in this photo. 
+
 ![VBA_2017](https://user-images.githubusercontent.com/93004710/148656012-c1b17ef2-912b-48b3-802b-fc96c70c5981.png)
+
+
 * In the year 2018 almost all green stock tickers returned a negative return with the exception of tickers "ENPH" and "RUN" as can be seen in this photo. 
+
 ![VBA_2018](https://user-images.githubusercontent.com/93004710/148656074-2676a946-f711-42f5-8795-05888421a8d7.png)
+
+
 ### Macro Script Performance
 * The original macro VBA script had a run time for 2017 of 0.8320313 as seen here.
+
+
 ![VBA_2017_original](https://user-images.githubusercontent.com/93004710/148656243-4d9061e1-09be-47f5-8900-8a09013f655b.png)
+
+
 * The original macro VBA script had a run time for 2018 of 0.8164063 as seen here.
+
+
 ![VBA_2018_original](https://user-images.githubusercontent.com/93004710/148656320-f891df15-d906-4152-a161-df6b6bbdadc4.png)
+
+
 * The refactored macro VBA script had a run time for 2017 of 0.1289063 as seen here.
+
+
 ![VBA_2017_Refactored](https://user-images.githubusercontent.com/93004710/148656362-773af2c9-2f38-45aa-aac9-51a6f06ce40b.png)
+
+
 * The refactored macro VBA script had a run time for 2018 of 0.140625 as seen here. 
+
+
 ![VBA_2018_Refactored](https://user-images.githubusercontent.com/93004710/148656414-2bfdb0e1-1e35-47d0-87aa-81c3b63e126e.png)
+
+
 * The refactored code is here. 
+
+
 ![VBA_Refactored_Script1](https://user-images.githubusercontent.com/93004710/148656817-2860aba3-f3a5-467d-8820-d43a644aba13.png)![VBA_Refactored_Script2](https://user-images.githubusercontent.com/93004710/148656826-4a35573e-3f9a-41ff-84ea-bd705ceef9de.png)
+
+
 * Compared to the original code here.
+
+
  ![VBA_Original_Script](https://user-images.githubusercontent.com/93004710/148656897-c297abb6-6b43-4684-9703-498626248740.png)
+ 
+ 
 * The photos above show just how much more performance we get out of the refactored script for both years 2017, and 2018. This big difference in the refactored code from the original code in the nested for loop "For j" that allows the script to run more efficient.
 ## Summary
 ### Advantages and Disadvantages of Refactoring Code
