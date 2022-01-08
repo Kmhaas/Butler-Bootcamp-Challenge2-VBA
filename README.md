@@ -1,9 +1,9 @@
 # VBA_Challenge2
 Module Challenge 2
-# Module 2
+# Module 2 VBA of Wall Street
 ## Overview of Project
 ### Purpose
-The purpose of this project was to help Steve with suggesting green stocks to invest in for his parents. More specific Steve wanted to know how certain green stocks performed over a two year period, from 2017-2018. We manipulated the data using mircosoft excel VBA macros to run loops through different sheets of data to return the values we desired and refactoring the original code to maximize the proformance of our macro VBA script.
+The purpose of this project was to help Steve with suggesting green stocks to invest in for his parents. More specific Steve wanted to know how certain green stocks performed over a two year period, from 2017-2018. We manipulated the data using mircosoft excel VBA macros to run loops through different arrays from all sheets of the data to return the values we desired and refactored the original VBA code to maximize the proformance of our macro VBA script.
 ## Results
 ### Stock Performance
 * Green Stock tickers, "AY","CSIQ","DQ","ENPH","FSLR","HASI","JKS","RUN","SEDG","SPWR","TERP","VSLR" in the year 2017 all returned positive returns except "TERP" as can be seen in this photo. 
@@ -53,14 +53,14 @@ The purpose of this project was to help Steve with suggesting green stocks to in
  ![VBA_Original_Script](https://user-images.githubusercontent.com/93004710/148656897-c297abb6-6b43-4684-9703-498626248740.png)
  
  
-* The photos above show just how much more performance we get out of the refactored script for both years 2017, and 2018. This big difference in the refactored code from the original code in the nested for loop "For j" that allows the script to run more efficient.
+* The photos above show just how much more performance we get out of the refactored script for both years 2017, and 2018. The big difference in the refactored code from the original code is in the nested for loop for all sheets and the four arrays that allows the script to run more efficient.
 ## Summary
 ### Advantages and Disadvantages of Refactoring Code
-* An advantage of using refactored code is increasing the run time for the script as can be seen with the Macro Script Performance photos. The code of each year ran considerably faster with the refactored code.
-* A disadvantage of using refactored code is syntax errors. When refactoring it is important to make sure your for loops and nested loops are correctly labeled otherwise the code will not run properly. In the photo above you can see in the refactored script the nested loop variable changes from "i" to "j" if you do not correctly label this your script will run but improperly fill your cells. This can be a con when refactoring code.
+* An advantage of using refactored code is increasing the run time for the script. The code of each year ran considerably faster with the refactored code. The refactored code also makes it easier to understand the flow of the code.
+* A disadvantage of using refactored code is syntax errors. When refactoring it is important to make sure your for loops, nested loops, arrays, and variables are all correctly labeled otherwise the code will not run properly. This can be a con when refactoring code.
 ### Advantages and Disadvantages of Refactored VBA Script
-* An advantage to using the refactored VBA script is being able to use the same pattern of code without having to write an entire new script. The original VBA script did not run as efficient, however it was a more simple script to follow and debug when necessary.
-* A disadvantage of using the original VBA script was the poor efficiency of the script. While the refactored VBA script runs impressivly it is more complex and time consuming to write and follow along.
+* An advantage to using the refactored VBA script is the efficiency of the script as shown in the photos from Macro Script Performance photos. The original VBA script did not run as efficient, however it still performed the task we ultimately wanted to do.
+* A disadvantage of using the original VBA script was the poor efficiency of the script. While the refactored VBA script runs impressivly it is more time consuming to write and have run errors.
 
 
  
